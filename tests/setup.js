@@ -1,12 +1,14 @@
 require("../models/User");
-
 const mongoose = require("mongoose");
 const keys = require("../config/keys");
 
 mongoose.Promise = global.Promise;
-mongoose.connect(keys.mongoURI, {
-  useMongoClient: true,
-  useNewUrlParser: true
-}() => {
-  console.log("MongoDB connected...");
-});
+mongoose.connect(
+  keys.mongoURI,
+  {
+    useNewUrlParser: true
+  },
+  () => {
+    console.log("MongoDB connected...");
+  }
+);

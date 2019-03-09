@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "jest": {
-    "setupTestFrameworkScriptFile": "./tests/setup.js"
+    "testEnvironment": "node",
+    "verbose": true,
+    "testURL": "http://localhost:3000/",
+    "setupFilesAfterEnv": ["./tests/setup.js"]
   },
   "scripts": {
     "start": "node index.js",
@@ -26,7 +29,7 @@
     "express": "^4.15.3",
     "jest": "^24.1.0",
     "migrate-mongoose": "^3.2.2",
-    "mongoose": "^5.4.14",
+    "mongoose": "^5.4.18",
     "nodemon": "^1.18.10",
     "passport": "^0.3.2",
     "passport-google-oauth20": "^1.0.0",
@@ -34,9 +37,5 @@
     "puppeteer": "^1.12.2",
     "redis": "^2.8.0",
     "uuid": "^3.2.1"
-  },
-  "jest": {
-    "verbose": true,
-    "testURL": "http://localhost:3000/"
   }
 }
