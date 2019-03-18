@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const redis = require("redis");
 const util = require("util");
-const keys = require('../config/keys');
+const keys = require("../config/keys");
 
 const client = redis.createClient(keys.redisUrl);
 client.hget = util.promisify(client.hget);
@@ -30,9 +30,9 @@ mongoose.Query.prototype.exec = async function() {
   if (cacheValue) {
     const doc = JSON.parse(cacheValue);
 
-    return Array.isArray(doc) ?
-      doc.map(d => new this.model(d)) :
-      new this.model(doc);
+    return Array.isArray(doc)
+      ? doc.map(d => new this.model(d))
+      : new this.model(doc);
   }
 
   // Otherwise, issue tha query and store the result in redis
