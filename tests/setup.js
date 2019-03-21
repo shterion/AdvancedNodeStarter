@@ -6,8 +6,7 @@ const keys = require("../config/keys");
 
 mongoose.Promise = global.Promise;
 mongoose.connect(
-  keys.mongoURI,
-  {
+  keys.mongoURI, {
     useNewUrlParser: true
   },
   () => {
