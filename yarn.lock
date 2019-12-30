@@ -3701,10 +3701,10 @@ path-parse@^1.0.6:
   resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
   integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
 
-path-parser@^4.0.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/path-parser/-/path-parser-4.2.0.tgz#2fbb3df2d49659a9a4cac88be7d8d5f4666814fb"
-  integrity sha512-MPPZiWTTp2I72VXmGQQfsn2ohrbd9QTbZSLYNS+HXsnQ37VbiLR/szO2R7DHaZA1V1scYxuxgyQerj+6kMTXtA==
+path-parser@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/path-parser/-/path-parser-5.0.0.tgz#61f2a56c8122121a901a8974ccc6ce1c14679cf0"
+  integrity sha512-px0raap6ivw1VkS5OUed3Df9mOCXmS03i3nOp1dxiEUJ+2iPa+9It7oxvB6cBVhrr1lD0QM6EsnkPktzRIbrug==
   dependencies:
     search-params "2.1.3"
 
