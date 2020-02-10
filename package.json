@@ -37,7 +37,7 @@
     "passport-google-oauth20": "^2.0.0",
     "path-parser": "^6.0.0",
     "puppeteer": "^2.0.0",
-    "redis": "^2.8.0",
+    "redis": "^3.0.0",
     "uuid": "^3.3.2"
   }
 }
