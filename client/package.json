@@ -11,7 +11,7 @@
     }
   },
   "dependencies": {
-    "axios": "0.18.1",
+    "axios": "0.21.0",
     "materialize-css": "1.0.0",
     "react": "16.13.0",
     "react-dom": "16.13.0",
